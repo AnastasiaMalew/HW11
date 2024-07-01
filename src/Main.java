@@ -23,9 +23,8 @@ public class Main {
 
     public static void checkerDeviceClient(int deviceOS, int deviceYear) {
         System.out.println("Задание 2");
-        if (deviceOS == 0) {
-            if (deviceYear >= 2015) {
-                System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+        if ((deviceOS == 0) && (deviceYear >= 2015)) {
+            { System.out.println("Установите облегченную версию приложения для iOS по ссылке");
             } else {
                 System.out.println("Установите обычную версию приложения для iOS по ссылке");
             }
@@ -42,15 +41,10 @@ public class Main {
 
     public static int distanceTime(int km) {
         System.out.println("Задание 3");
-        if (km <= 20) {
-            System.out.println("Потребуется дней:1" + " " + "срок доставки.");
-        } else if (km > 20 && km < 60) {
-            System.out.println("Потребуется дней:2" + " " + "срок доставки.");
-        } else if (km >= 60 && km < 100) {
-            System.out.println("Потребуется дней:3" + " " + "срок доставки.");
-        } else if (km >= 100) {
-            System.out.println("доставки нет.");
-        }
+        if (km <= 20);
+        else if (km > 20 && km < 60);
+        else if (km >= 60 && km < 100);
+        else if (km >= 100);
         return km;
     }
 }
